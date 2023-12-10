@@ -1,26 +1,41 @@
 # Task1_calculator-using-python 
 def add(x, y):
+    
     return x + y
 
 def subtract(x, y):
+    
     return x - y
 
 def multiply(x, y):
+
     return x * y
 
-def divide(x, y):
-    if y != 0:
-        return x / y
-    else:
-        return "Cannot divide by zero"
 
-def calculator():
+def divide(x, y):
+    
+    if y != 0:
+    
+        return x / y
+    
+    else:
+        
+        return "Cannot divide by zero"
+        
+def calculator:
+    
     print("Simple Calculator")
+    
     while True:
+        
         print("Select operation:")
+        
         print("1. Addition")
+        
         print("2. Subtraction")
+        
         print("3. Multiplication")
+        
         print("4. Division")
         print("5. Exit")
 
